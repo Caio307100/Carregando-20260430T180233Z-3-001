@@ -1,0 +1,21 @@
+*{
+    background-color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+img{
+    animation-name: girar;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes girar{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.container{
+    margin-top: 150px;
+}

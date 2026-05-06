@@ -1,0 +1,282 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.cabecalho{
+    text-align: center;
+    margin-block-end: 50px;
+}
+.cabecalho h1{
+    margin-block-end: 11px;
+    color: white;
+}
+.cabecalho p{
+    margin-top: 11px;
+    color: rgb(170, 170, 170);
+}
+.churrasco h2{
+    color: white;
+}
+.churrasco p{
+    color: rgb(170, 170, 170);
+    margin-left: 20px;
+}
+.churrasco, .churrasco h2, .churrasco p{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+.churrasco{
+    border: 1px solid rgb(131, 129, 129);
+    padding-right: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: 1s;
+}
+.churrasco:hover{
+    scale: 1.05;
+}
+.strogonoff h2, .empadinha h2, .lasanha h2, .jilo h2{
+    color: white;
+}
+.strogonoff p, .empadinha  p, .lasanha p, .jilo p{
+    color: rgb(170, 170, 170);
+    margin-left: 20px;
+}
+.strogonoff, .strogonoff h2, .strogonoff p{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+.strogonoff{
+    border: 1px solid rgb(131, 129, 129);
+    padding-right: 20px;
+    text-align: center;
+    margin-right: 100px;
+    transition: 1s;
+}
+.strogonoff:hover{
+    scale: 1.05;
+}
+.empadinha, .empadinha h2, .empadinha p{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+.empadinha{
+    border: 1px solid rgb(131, 129, 129);
+    padding-right: 20px;
+    padding-block-end: 17px;
+    text-align: center;
+    margin-right: 100px;
+    transition: 1s;
+}
+.empadinha:hover{
+    scale: 1.05;
+}
+.lasanha, .lasanha h2, .lasanha p{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+.lasanha{
+    border: 1px solid rgb(131, 129, 129);
+    text-align: center;
+    padding-right: 20px;
+    margin-right: 100px;
+    transition: 1s;
+}
+.lasanha:hover{
+    scale: 1.05;
+}
+.jilo, .jilo h2, .jilo p{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+}
+.jilo{
+    border: 1px solid rgb(131, 129, 129);
+    text-align: center;
+    padding-right: 20px;
+    transition: 1s;
+}
+.jilo:hover{
+    scale: 1.05;
+}
+#fundo-churrasco{
+    padding-top: 10px;
+    padding-block-end: 10px;
+    background-color: black;
+    margin-left: 50px;
+    display: inline-block;
+}
+#fundo-strogonoff{
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-block-end: 10px;
+    background-color: black;
+    margin-left: 50px;
+    display: inline-block;
+}
+#fundo-empadinha{
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-block-end: 10px;
+    background-color: black;
+    margin-left: 50px;
+    display: inline-block;
+}
+#fundo-lasanha{
+    padding-right: 600px;
+    padding-top: 10px;
+    padding-block-end: 10px;
+    background-color: black;
+    margin-left: 50px;
+    display: inline-block;
+}
+#fundo-jilo{
+    padding-right: 1100px;
+    padding-top: 10px;
+    padding-block-end: 10px;
+    background-color: black;
+    margin-left: 50px;
+    display: inline-block;
+}
+.votacao *{
+    color: white;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    list-style: none;
+}
+.votos{
+    border: 1px solid rgb(131, 129, 129);
+    padding-left: 20px;
+    padding-right: 100px;
+    transition: 1s;
+}
+.votos:hover{
+    scale: 1.05;
+}
+.comidas{
+    margin-block-end: 40px;
+}
+.votacao{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    text-align: center;
+}
+li{
+    margin-block-end: 25px;
+}
+#churrasco{
+    padding-right: 1300px;
+    background-image: linear-gradient(to right, orange, rgb(255, 209, 124));
+    padding-block-end: 10px;
+    padding-top: 10px;
+    animation-name: carregamento-churrasco;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+#strogonoff{
+    padding-right: 1200px;
+    background-image: linear-gradient(to right, blue, rgb(131, 131, 255));
+    padding-top: 10px;
+    padding-block-end: 10px;
+    animation-name: carregamento-strogonoff;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+#empadinha{
+    padding-right: 1150px;
+    background-image: linear-gradient(to right, purple, rgb(128, 61, 128));
+    padding-top: 10px;
+    padding-block-end: 10px;
+    animation-name: carregamento-empadinha;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+#lasanha{
+    padding-right: 700px;
+    background-image: linear-gradient(to right, green, rgb(65, 133, 65));
+    padding-top: 10px;
+    padding-block-end: 10px;
+    animation-name: carregamento-lasanha;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+#jilo{
+    padding-right: 200px;
+    background-image: linear-gradient(to right, white, rgb(139, 139, 139));
+    padding-top: 10px;
+    padding-block-end: 10px;
+    animation-name: carregamento-jilo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+@keyframes carregamento-churrasco{
+    0%{
+        padding-right: 0px;
+    }
+    100%{
+        padding-right: 1300px;
+    }
+}
+@keyframes carregamento-strogonoff{
+    0%{
+        padding-right: 0px;
+    }
+    100%{
+        padding-right: 1200px;
+    }
+}
+@keyframes carregamento-empadinha{
+    0%{
+        padding-right: 0px;
+    }
+    100%{
+        padding-right: 1150px;
+    }
+}
+@keyframes carregamento-lasanha{
+    0%{
+        padding-right: 0px;
+    }
+    100%{
+        padding-right: 700px;
+    }
+}
+@keyframes carregamento-jilo{
+    0%{
+        padding-right: 0px;
+    }
+    100%{
+        padding-right: 200px;
+    }
+}
+.nome{
+    width: 73px;
+}
+ul li{
+    display: flex;
+    align-items: center;
+}
+ul li p{
+    margin-left: 30px;
+}
+
+
+
+
